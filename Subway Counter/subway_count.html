@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Counter</title>
+
+    <style>
+        body {
+            background-image: url(subway.jpg);
+            background-repeat: no-repeat;
+
+            background-size: cover;
+
+
+        } 
+
+        h1 {
+
+
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        h2 {
+
+
+
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            font-weight: bold;
+            width: 200px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+
+        #increment-btn {
+            text-align: center;
+            background: green;
+            margin: 0 auto;
+            display: block;
+        }
+
+        #decrement-btn
+        {
+
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+            background:darkred;
+        }
+
+        #save
+        {
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color:black;
+            font-weight: bold;
+            width: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            
+            text-align: center;
+            
+            /* display: block; */
+            background: paleturquoise;
+
+        }
+        #save-el{
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Number of People:</h1>
+    <h2 id="count">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT </button>
+   
+    <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+     <button id="save-el" onclick="save()">SAVE</button>
+    <p id="save"></p>
+    <script src="fcc1.js">
+
+    </script>
+
+</body>
+
+</html>
